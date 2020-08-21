@@ -4,6 +4,9 @@ import sys
 def spanish():
     print("Hola")
 
+def french():
+    print("Bonjour")
+
 def english():
     print("Hello")
 
@@ -11,6 +14,8 @@ def english():
 def main():
     if sys.argv[1] == "s":
         spanish()
+    elif sys.argv[1] == "f":
+        french()
     else:
         english()
 
