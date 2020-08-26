@@ -2,7 +2,7 @@ import sys
 
 
 def spanish():
-    print("Hola")
+    print("Hola, mundo")
 
 def english():
     print("Hello")
